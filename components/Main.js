@@ -3,12 +3,32 @@ export default function Main() {
     <section className="text-gray-600 body-font">
       <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
-          <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
-            We are making Stunning Websites
+          <div className="py-24 md:py-36">
+            <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
+              Mostramos Experiencias
+            </h1>
+            <h1 className="mb-9 text-2xl font-semibold text-gray-600">
+              Dejanos tu correo para saber lo que podemos hacer por ti.
+            </h1>
+            <input
+              placeholder="maria@gmail.com"
+              name="email"
+              type="email"
+              autoComplete="email"
+              className="border border-gray-600 w-1/16 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
+            ></input>{" "}
+            <a
+              className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+              href="/"
+            >
+              <span className="justify-center">Sucribete</span>
+            </a>
+          </div>
+          {/* <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
+            Mostramos Experiencias
           </h1>
           <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
-            nine4 is a free to use website template for websites made with
-            Next.js and styled with Tailwind CSS
+            Dejanos tu correo para saber lo que podemos hacer por ti.
           </p>
           <div className="flex justify-center">
             <a
@@ -17,17 +37,18 @@ export default function Main() {
             >
               <span className="justify-center">Find out more</span>
             </a>
-          </div>
+          </div> */}
         </div>
+
         <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10">
           <img
             className="w-80 md:ml-1 ml-24"
             alt="iPhone-12"
-            src="/images/iPhone-12-Mockup.png"
+            src="/images/Kane.jpeg"
           ></img>
         </div>
       </div>
-      <section className="mx-auto">
+      {/* <section className="mx-auto">
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
@@ -65,8 +86,8 @@ export default function Main() {
             </div>
           </div>
         </div>
-      </section>
-      <div className="grr max-w-7xl pt-20 mx-auto text-center">
+      </section> */}
+      {/* <div className="grr max-w-7xl pt-20 mx-auto text-center">
         <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
           Less code, less effort.
         </h1>
@@ -80,8 +101,8 @@ export default function Main() {
             src="./images/placeholder.png"
           ></img>
         </div>
-      </div>
-      <section className="relative">
+      </div> */}
+      {/* <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
@@ -101,11 +122,11 @@ export default function Main() {
               className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
               href="/"
             >
-              <span className="justify-center">Subscribe</span>
+              <span className="justify-center">Sucribete a nuestras ofertas</span>
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }
