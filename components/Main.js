@@ -5,7 +5,7 @@ export default function Main() {
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
           <div className="py-24 md:py-36">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
-              Mostramos Experiencias
+              Llevamos tu mensaje al público
             </h1>
             <h1 className="mb-9 text-2xl font-semibold text-gray-600">
               Dejanos tu correo para saber lo que podemos hacer por ti.
